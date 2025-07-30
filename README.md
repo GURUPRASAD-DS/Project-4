@@ -112,9 +112,9 @@ Each disease is modeled using the following classifiers:
 
 ---
 
-## 🧑‍💻 Author
+## 🧑‍💻 Done by
+Guru prasad V
 
-Built with ❤️ by **[PREETHI S]**
 
 ---
 

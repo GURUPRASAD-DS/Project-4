@@ -2,14 +2,6 @@
 
 An intelligent ML-powered system to predict **Parkinson’s, Kidney, and Liver diseases** from clinical data. Built to assist early diagnosis and support healthcare professionals with **fast, accurate, and explainable results** via a clean Streamlit interface.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Machine%20Learning-✓-brightgreen" />
-  <img src="https://img.shields.io/badge/Streamlit-✓-red" />
-  <img src="https://img.shields.io/badge/Colab%20Demo-Available-blue" />
-</p>
-
----
-
 ## 📌 Features
 
 ### 🩺 Disease Selection
@@ -62,15 +54,6 @@ Each disease is modeled using the following classifiers:
 - ✅ Random Forest  
 - ✅ XGBoost  
 - ✅ Decision Tree  
-- ✅ K-Nearest Neighbors (KNN)  
-- ✅ Support Vector Machine (SVM)  
-- ✅ Naive Bayes
-
-> For each disease:
-> - All models were trained and evaluated using **raw**, **oversampled**, and **undersampled** data.
-> - **Stratified K-Fold Cross Validation** was applied to compare performance across multiple folds.
-> - Based on overall **cross-validated accuracy, F1-score, and generalization**, the **best performing model** was selected.
-> - The selected model was **saved using `joblib`** and **deployed within the Streamlit app** for real-time predictions.
 
 ---
 
@@ -93,8 +76,7 @@ Each disease is modeled using the following classifiers:
 
 - 🔍 Multi-disease prediction from a single interface
 - ⚖️ Tried multiple **ML models** per disease
-- 🔁 Used **Stratified K-Fold Cross Validation** to ensure robust performance
-- 🏆 Selected the **best model per disease** based on CV metrics
+- 🏆 Selected the **best model per disease** 
 - 💾 Saved best models using **joblib** for efficient deployment
 - 📊 Robust model evaluation and visualizations
 - 🚀 Live deployed app via Streamlit in Colab
